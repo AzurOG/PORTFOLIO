@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon portfolio numérique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Romain Dacet</h1>
+        <p>Etudiant – BTS SIO</p>
+        <p>LYCEE GUY MOLLET – ARRAS</p>
+        <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/bb0ec67a-368f-428a-9848-33f2ff7a8f9c.png" alt="Logo R">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="projets.html">Projets</a></li>
+            <li><a href="veille.html">Veille technologique</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <h2>Bienvenue</h2>
+
+        <p>
+            Je m'appelle <strong>Romain Dacet</strong> et je suis étudiant en BTS SIO (Services Informatiques aux Organisations).
+            Sur ce portfolio, je partage mon parcours, mes projets et les compétences que je développe au fil de ma formation.<br>
+            Je m'intéresse particulièrement au <strong>cinéma</strong>, à <strong>l'informatique</strong> et aux <strong>arts martiaux</strong>. 
+            Vous suivrez sur ce portfolio mes différents projets au cours de mes études.
+        </p>
+
+        <h2>Projets</h2>
+
+        <p>
+            Vous trouverez le détail de mes projets sur la page <a href="projets.html">Projets</a> :
+            blog cinéma, CV en HTML/CSS et ce portfolio numérique.
+        </p>
+
+        <h2 id="contact">Contact</h2>
+
+        <form action="mailto:romaindacet11@gmail.com" method="post" enctype="text/plain">
+            <p>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+            </p>
+            <p>
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" required>
+            </p>
+            <p>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+            </p>
+            <p>
+                <label for="message">Message :</label><br>
+                <textarea id="message" name="message" rows="5" cols="40" required></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Envoyer">
+                <input type="reset" value="Effacer">
+            </p>
+        </form>
+
+    </main>
+
+    <footer>
+        <p>&copy; <strong>ROMAIN DACET</strong> – 2025</p>
+    </footer>
+
+</body>
+</html>
